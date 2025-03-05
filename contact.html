@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>TravelBloom</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  </head>
+  <body class="font-sans antialiased">
+      <img
+        alt="Aerial view of a city with tall buildings and a river"
+        class="absolute inset-0 w-full h-full object-cover"
+        height="1080"
+        src="https://storage.googleapis.com/a1aa/image/iKGQfB-iDHyOvBdfdfbJGJysOoMNtsJv376Ds_IfLh8.jpg"
+        width="1920"
+      />
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <nav class="relative bg-black bg-opacity-75">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+          <div class="flex items-center">
+            <i class="fas fa-plane-departure text-white text-3xl mr-2"> </i>
+            <span class="text-white text-2xl font-bold"> TravelBloom </span>
+          </div>
+          <div class="hidden md:flex space-x-9">
+            <a class="text-white hover:text-gray-300" href="travel_recommendation.html"> Home </a>
+            <a class="text-white hover:text-gray-300" href="about.html"> About Us </a>
+            <a class="text-white hover:text-gray-300" href="contact.html"> Contact Us </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="flex mt-72 ml-4 justify-center items-center gap-20 z-10">
+        <h1 class="text-6xl font-bold mb-12 text-white z-10">Contact Us</h1>
+        <form  class="bg-white bg-opacity-75 p-8 rounded-lg mt-8 w-full max-w-xl z-10">
+          <div class="mb-4">
+            <label class="block text-gray-700" for="name"> Name </label>
+            <input class="w-full p-2 border border-gray-300 rounded" id="name" type="text" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700" for="email"> Email </label>
+            <input class="w-full p-2 border border-gray-300 rounded" id="email" type="email" />
+          </div>
+          <div class="mb-4">
+            <label class="block text-gray-700" for="message"> Message </label>
+            <textarea class="w-full p-2 border border-gray-300 rounded" id="message"></textarea>
+          </div>
+          <button class="w-full bg-teal-600 text-white p-2 rounded" type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="absolute left-4 bottom-0 top-0 flex flex-col items-center justify-center space-y-8 z-10">
+        <a class="text-white text-2xl hover:text-gray-300" href="#">
+          <i class="fab fa-twitter"> </i>
+        </a>
+        <a class="text-white text-2xl hover:text-gray-300" href="#">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+        <a class="text-white text-2xl hover:text-gray-300" href="#">
+          <i class="fab fa-instagram"> </i>
+        </a>
+        <a class="text-white text-2xl hover:text-gray-300" href="#">
+          <i class="fab fa-youtube"> </i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
